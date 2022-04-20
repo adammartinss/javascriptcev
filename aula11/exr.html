@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro</title>
+</head>
+<body>
+    <h1>Descubra se você é estrangeiro</h1>
+    <input type="text" id="txtpais" name="txtpais">
+    <input type="button" value="Verificar" onclick = "conferir()">
+    <div id="res">
+        Você é:
+    </div>
+    <script>
+        function conferir(){
+        var pais = document.querySelector('input#txtpais')
+        if (pais != 'Brasil') {
+            res.innerHTMl += '<p>Você é estrangeiro</p>'
+        } else {
+            res.innerHTML += '<p>Você é Brasileiro<p>'
+        }
+    }
+    </script>
+</body>
+</html>
