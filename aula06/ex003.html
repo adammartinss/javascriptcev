@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #6de277, white);
+            height: 100vh;
+        }
+        h1{
+            text-align: center;
+            color: #E35688;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <script>
+        var n1 = parseInt(window.prompt('Digite um número inteiro'))//string
+        var n2 = Number(window.prompt('Digite número'))//parseInt para transformar string dada pelo prompt em num parseFloat para real ou Number para inteiro ou real
+        var s = n1 + n2
+        window.alert(`A soma dos valores é ${s}`)//template string $nome da variavel entre cahves
+    </script>
+</body>
+</html>
