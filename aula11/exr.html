@@ -8,20 +8,20 @@
 </head>
 <body>
     <h1>Descubra se você é estrangeiro</h1>
-    <input type="text" id="txtpais" name="txtpais">
+    <input type="text" id="txtpais" name="txtpais" value='Seu país'
     <input type="button" value="Verificar" onclick = "conferir()">
     <div id="res">
-        Você é:
+        Você é: 
     </div>
     <script>
         function conferir(){
         var pais = document.querySelector('input#txtpais')
         if (pais != 'Brasil') {
             res.innerHTMl += '<p>Você é estrangeiro</p>'
-        } else {
+        } else if 
             res.innerHTML += '<p>Você é Brasileiro<p>'
-        }
-    }
+        
+            }
     </script>
 </body>
 </html>
