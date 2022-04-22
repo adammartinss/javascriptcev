@@ -5,38 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazz</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        div{
+            background-color: crimson;
+            padding: 10px;
+            display: inline;
+            text-align: center;
+            width: 50vw;
+            margin-left: 300px;
+        }
+        @media (max-width:1100px){
+            div{
+            font-size: 1em;
+            margin-left: 100px;
+        }}
+    </style>
 </head>
 <body>
-    <H1>Hoje é:</H1> 
-    <div id="dia">
+    
+    <div id="res">
 
     </div>
     <script>
         var agr = new Date()
-        var diaSem = agr.getDate()
-        var res = document.querySelector('div#dia')
+        var diaSem = agr.getDay()
+        var res = document.querySelector('div#res')
         
         switch (diaSem) {
     case 0:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML ='Hoje é domingo';
         break;
     case 1:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML = 'Hoje é segunda';
         break;
     case 2:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML = 'Hoje é terça';
         break;
     case 3:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML = 'Hoje é quarta';
         break;
     case 4:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML = 'Hoje é quinta';
         break;
     case 5:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML = 'Hoje é sexta';
         break;
     case 6:
-        res.innerHTML('Hoje é domingo');
+        res.innerHTML = 'Hoje é sabado';
         break;
 }
 
