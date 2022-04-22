@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(107, 107, 241);
+    background-color: #241c11;
     font: normal 15pt Arial;
 }
 
@@ -20,4 +20,12 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+div#msg {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+div#img{
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.87) ;
 }
