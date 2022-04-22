@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +7,25 @@
     <title>Estrangeiro</title>
 </head>
 <body>
-    <h1>Descubra se você é estrangeiro</h1>
-    <input type="text" id="txtpais" name="txtpais" value='Seu país'
-    <input type="button" value="Verificar" onclick = "conferir()">
+    <h2> Sua nacionalidade </h2>
+    <p>Qual o seu país ?</p> 
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Pesquisar" onclick="clicar()">
     <div id="res">
-        Você é: 
     </div>
     <script>
-        function conferir(){
-        var pais = document.querySelector('input#txtpais')
-        if (pais != 'Brasil') {
-            res.innerHTMl += '<p>Você é estrangeiro</p>'
-        } else if 
-            res.innerHTML += '<p>Você é Brasileiro<p>'
-        
-            }
+        function clicar(){
+            var paisp = window.document.getElementById('pais')
+            var res = window.document.getElementById('res')
+
+            var ver = String(paisp.value)
+            res.innerHTML += `<p>Seu pais é ${ver}</p>` 
+        if(vel.value == 'Brasil', 'brasil', 'br'){
+            res.innerHTML += 'Você é Brasileiro'
+        }else{
+            res.innerHTML += 'Você é estrangeiro'
+        }
+        }
     </script>
 </body>
 </html>
