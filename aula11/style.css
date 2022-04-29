@@ -1,0 +1,9 @@
+h1{
+    margin: 1em 0;
+    padding: 1.4em;
+    background-image: linear-gradient(to bottom
+    , #853c3c, #dbcdb3 );
+     background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,.2);
+}
