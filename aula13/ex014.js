@@ -7,4 +7,4 @@ cont++
 }
 // teste logico no inicio
 console.log(`passo ${cont}`);
-console.log(`passo ${cont}`);
+

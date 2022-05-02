@@ -4,4 +4,3 @@ do{
     c++
 } while (c <= 6)
 console.log(`passo ${c}`)
-console.log(`passo ${c}`)
