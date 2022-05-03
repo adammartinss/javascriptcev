@@ -11,16 +11,16 @@ function start(){
     dy = 0
     px = 0;
     py = 0;
-    vel = 10;
+    vel = 2;
     obj = document.getElementById("div1");
     document.addEventListener("keydown",teclaDw)
     document.addEventListener("keyup", teclaUp)
-    tmp = setInterval(enterFrame,20)
+    tmp = setInterval(enterFrame,1)
     
 }
 
 function teclaDw(){
-    var tecla = keyCode;
+    var tecla = event.keyCode;
     if(tecla == 37){
         dx = -1;
     }else if(tecla == 38){
@@ -32,6 +32,7 @@ function teclaDw(){
     }
 }
 function teclaUp(){
+    var tecla = event.keyCode;
      if(tecla == 37){
         dx = 0;
     }else if(tecla == 38){
