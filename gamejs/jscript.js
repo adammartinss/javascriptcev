@@ -135,14 +135,14 @@ function criaExplosao(tipo, x, y){//tipo 1-AR 2-CHAO
     att3.value = "explosao"+ie;
     if(tipo==1){
         att1.value = "explosaoAr";
-        att1.value="top"+y+"px; left:"+x+"px;";
-        att4.value = "imagens/explosao_ar.gif";
+        att1.value="top:"+y+"px; left:"+x+"px;";
+        att4.value = "imagens/explosao_ar.gif"+new Date();
     }else{
         att1.value = "explosaoChao"
-        att2.value="top"+(tamTelaH-57)+"px;left:"+(x-17)+"px;";
-        att4.value = "imagens/explosao_chao.gif";
+        att2.value="top:"+(tamTelaH-57)+"px;left:"+(x-17)+"px;";
+        att4.value = "imagens/explosao_chao.gif"+new Date();
     }
-    att5.value = "exp1.mp3";
+    att5.value = "exp1.mp3"+ new Date();
     att6.value = "som" + isom;
     explosao.setAttributeNode(att1);
     explosao.setAttributeNode(att2);
