@@ -1,0 +1,59 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(imagens/28.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.naveJog{
+    
+    width: 40px;
+    height: 40px;
+    background-image: url(imagens/nave_jog.gif);
+    position: absolute;
+}
+.telaMsg{
+    position: absolute;
+    margin-left: -25%;
+    top: 50px;
+    left: 50px;
+    width: 720px;
+    height: 621px;
+    display: none;
+}
+#medidorPlaneta{
+    border: 2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color:#fff;
+}
+#barraPlaneta{
+    width: 300px;
+    height: 20px;
+    background-color:#0f0
+}
+.tiroJog{
+    width: 6px;
+    height: 6px;
+    background-color: #f00;
+    border-radius: 6px;
+    position:absolute;
+}
+.bomba{
+    width: 24px;
+    height: 40px;
+    background-image: url(imagens/bomba.gif);
+    position: absolute;
+}
+.explosaoChao{
+    width: 55px;
+    height: 57px;
+    position: absolute;
+}
+.explosaoAr{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
