@@ -34,6 +34,9 @@ body{
     height: 20px;
     background-color:#0f0
 }
+h1{
+    margin: 0;
+}
 .tiroJog{
     width: 6px;
     height: 6px;
@@ -56,4 +59,13 @@ body{
     width: 70px;
     height: 70px;
     position: absolute;
+}
+.telaMsg{
+    position:absolute;
+    margin-left: 25%;
+    top: 50px;
+    left: 50%;
+    width: 720px;
+    height: 621px;
+    display: none;
 }
